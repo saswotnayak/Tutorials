@@ -9,6 +9,11 @@ git restore --staged . - to restore from staged all files
 git commit -m "custom_msg" - to commit 
 git log - to see all the commits
 git reset <hash_id> - to reset to a commit
+git stash - to stash the files, those you don't yet want to commit. (first you have to add it to stage, then stash it)
+git stash pop - inorder to pop all the changes we made earlier and make them into the stage
+
+
+
 
 
 linux command
