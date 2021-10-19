@@ -2,12 +2,14 @@ git command
 -----------------------------------------------------------------------------------------
 git init -start the tracking of a project 
 git status - to see commits and untracked files
-git add . - changes the status of the all files 
-"to be commited" from "Untracked files" and add them to stage
+git add . - changes the status of the all files "to be commited" from "Untracked files" and add them to stage
 git add <file_name> - does the same thing as above, but for one file 
-
+git restore --staged <file_name> - to restore the from stage or change the status from "to be comitted" to "not staged for commit"
+git restore --staged . - to restore from staged all files
 
 linux command
 ----------------------------------------------
 cat <file_name> - to print the conent of the file in prompt
 touch <file_name> - to create a new file
+hi
+
