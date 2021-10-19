@@ -6,10 +6,12 @@ git add . - changes the status of the all files "to be commited" from "Untracked
 git add <file_name> - does the same thing as above, but for one file 
 git restore --staged <file_name> - to restore the from stage or change the status from "to be comitted" to "not staged for commit"
 git restore --staged . - to restore from staged all files
+git commit -m "custom_msg" - to commit 
+git log - to see all the commits
 
 linux command
 ----------------------------------------------
 cat <file_name> - to print the conent of the file in prompt
 touch <file_name> - to create a new file
-hi
+
 
