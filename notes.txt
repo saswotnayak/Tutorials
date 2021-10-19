@@ -8,10 +8,14 @@ git restore --staged <file_name> - to restore the from stage or change the statu
 git restore --staged . - to restore from staged all files
 git commit -m "custom_msg" - to commit 
 git log - to see all the commits
+git reset <hash_id> - to reset to a commit
+
 
 linux command
 ----------------------------------------------
 cat <file_name> - to print the conent of the file in prompt
 touch <file_name> - to create a new file
+rm -rf <file_name> - to remove a file from directory
+
 
 
