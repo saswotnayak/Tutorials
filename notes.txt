@@ -13,10 +13,17 @@ git stash clear - to clear those in the stash
 git remote add origin <url> - to attach a github repository to local git
 git remote -v - to cheack the github repository linked to it
 git push origin master - to push to the respository (master branch)
+git clone <url> - to copy any repository from github to local
+git remote add upstream <url> - To add the upstream url(url you forked from)
+git brach <new_branch> - to create a branch
+git checkout <branch_name> - to move head to a perticular brach, in order to make commit there
+
 
 
 linux command
 ----------------------------------------------
+ls -a - to display all the files and folder along with hidden one
+ls <folder_name> - to list all the conents of that folder
 cat <file_name> - to print the conent of the file in prompt
 touch <file_name> - to create a new file
 rm -rf <file_name> - to remove a file from directory
